@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 
@@ -14,18 +15,18 @@ int main(){
     float angulo;
     cin>>angulo;
 
-    const long double PI = 3.1415926535897;
+    const double pi=acos(-1);
 
     if (senOuCos=='s')
-    {
+    {   
         if (grauOuRad=='g')
         {
-            cout<<sin(angulo * PI / 180)<<endl;
+            cout << setprecision(6) << fixed << sin (angulo*pi/180);
         }
         
         if (grauOuRad=='r')
         {
-            cout<<sin(angulo * PI / 180)<<endl;
+            cout << setprecision(6) << fixed << sin (angulo);
         }
         
     }
@@ -34,15 +35,17 @@ int main(){
     {
         if (grauOuRad=='g')
         {
-            cout<<cos(angulo * PI / 180)<<endl;
+            cout << setprecision(6) << fixed << cos (angulo*pi/180);
         }
-        
+
         if (grauOuRad=='r')
         {
-            cout<<cos(angulo * PI / 180)<<endl;
+            cout << setprecision(6) << fixed << cos (angulo);
         }
         
+        
     }
+    
     
 
 
