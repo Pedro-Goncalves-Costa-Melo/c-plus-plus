@@ -1,0 +1,16 @@
+Faça um algoritmo que leia quatro números reais diferentes. Após isso, imprima o maior valor e o segundo maior valor.
+
+Entradas:
+
+quatro numeros em ponto flutuante
+Saídas:
+
+dois numeros em ponto flutuante (maior e segundo maior elemento)
+Exemplo de entrada:
+13.1
+2.2
+5.8
+6.9
+Exemplo de saída:
+13.1
+6.9
