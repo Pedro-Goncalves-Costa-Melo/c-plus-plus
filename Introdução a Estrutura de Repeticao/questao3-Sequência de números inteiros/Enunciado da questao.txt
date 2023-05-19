@@ -1,0 +1,37 @@
+Faça um programa que leia um número não determinado de valores inteiros. Seu programa deverá ler valores até encontrar um valor igual a zero. Assuma que cada valor será fornecido em uma linha diferente. Após a leitura de dados, seu programa deverá exibir no dispositivo de saída padrão as seguintes informações:
+
+Média aritmética dos valores lidos;
+Quantidade de números positvos;
+Quantidade de números negativos;
+Percentual de números positivos.
+Percentual de números negativos.
+Entradas:
+
+Sequência de números inteiros terminada em zero.
+Saídas:
+
+Número em ponto flutuante indicando a média aritmética dos valores de entrada.
+Número inteiro indicando a quantidade de valores positivos.
+Número inteiro indicando a quantidade de valores negativos.
+Número em ponto flutuante indicando o percentual de valores positivos.
+Número em ponto flutuante indicando o percentual de valores negativos.
+Exemplo de entrada:
+
+85
+35
+-123
+-2
+10
+-40
+84
+70
+135
+-99
+0
+Exemplo de saída:
+
+15.5
+6
+4
+0.6
+0.4

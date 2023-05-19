@@ -1,0 +1,22 @@
+Escreva um programa que abra um arquivo texto cujo nome será informado pelo usuário e conte o número de vezes que uma dada palavra aparece nele. A palavra também será informada pelo usuário. A busca deve ser sensível ao caso e à acentuação, ou seja, "pão", "pao" e "Pão" são consideradas palavras diferentes.
+
+Entradas:
+
+nome do arquivo
+palavra a ser procurada
+Saídas:
+
+um valor inteiro que representa o número de vezes que a palavra aparece no arquivo
+Exemplo de Entrada:
+
+entrada.txt
+fácil
+Exemplo de conteúdo do arquivo entrada.txt:
+
+Fácil é olhar nos olhos de seu melhor amigo
+e ver que não é fácil tirar os olhos.
+Pois não é fácil pensar que é fácil piscar
+e um momento tão facil, sumir.
+Exemplo de Saída:
+
+3
