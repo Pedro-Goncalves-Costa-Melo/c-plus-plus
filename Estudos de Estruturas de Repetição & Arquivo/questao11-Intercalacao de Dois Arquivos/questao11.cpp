@@ -13,7 +13,6 @@ int main(){
     while (ArqvA>>palavraA and ArqvB>>palavraB)
     {
         ArqvC<<palavraA<<" ";
-        ArqvC
     }
     
 
