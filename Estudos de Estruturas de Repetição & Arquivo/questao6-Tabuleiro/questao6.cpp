@@ -8,51 +8,24 @@ int main()
 
     ofstream saida("jogo.txt");
 
-    int Tamanho;
-    cin >> Tamanho;
-    int contAux;
-    contAux = Tamanho;
+    int N;
+    cin>>N;
 
-    while (contAux > 0)
+    for (int i = 0; i < N; i++)
     {
-        // Escreve A linha Impar
-        if (contAux % 2 != 0)
+        for (int j = 0; j < N; j++)
         {
-            for (int i = 0; i < Tamanho; i++)
-
+            if ((j+i)%2==0)
             {
-                if (i % 2 == 0)
-                {
-                    saida << ".";
-                }
-                else
-                {
-                    saida << "#";
-                }
+                saida<<".";
+            }else{
+                saida<<"#";
             }
-
-            saida << endl;
         }
-
-        // Escreve a Linha par
-        if (contAux % 2 == 0)
-        {
-            for (int i = 0; i < Tamanho; i++)
-            {
-                if (i % 2 == 0)
-                {
-                    saida << "#";
-                }
-                else
-                {
-                    saida << ".";
-                }
-            }
-            saida << endl;
-        }
-
-        contAux--;
+        saida<<endl;
     }
+    
+
 
     return 0;
 }
