@@ -1,0 +1,17 @@
+Faça um programa que receba 4 números em ponto flutuante, some os três menores e imprima o valor da soma.
+
+Entradas:
+
+float n1, n2, n3, n4 - Números que o usuário irá digitar.
+Saída:
+
+Soma dos 3 menores números(float).
+Exemplos de Entradas e Saídas:
+Entradas:
+3
+5.7
+4.3
+12.5
+
+Saída:
+13

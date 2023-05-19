@@ -1,0 +1,42 @@
+
+No fim do século XVII foram descobertas no interior do Brasil importantes jazidas de ouro que desempenharam um importante papel 
+para o povoamento do país. A descoberta de tais jazidas pontua o início do chamado Ciclo do Ouro, período que marca a ascensão do
+estado de Minas Gerais na economia colonial.
+
+Em uma destas jazidas anotou-se diariamente durante uma semana (de Domingo a Sábado) a quantidade de ouro extraído (em Kg) 
+na mesma. Faça um programa que leia de um arquivo chamado “jazida.txt” as quantidades de ouro extraídas na jazida e determine
+em que dia da semana ocorreu a maior extração e qual foi a quantidade de ouro extraída neste dia, dados os valores de outro 
+extraído em cada dia da semana (de Domingo a Sábado). Cada dado de entrada será fornecido em uma linha diferente do arquivo. 
+Ao exibir no dispositivo de saída padrão o dia da semana em que houve a maior extração, apresente este dia apenas 
+com letras minúsculas, sem acentuação e sem nenhuma pontuação. Ou seja, a grafia da mensagem para o dia deve ser escrita como em: 
+domingo, segunda-feira, terca-feira, quarta-feira, quinta-feira, sexta-feira ou sabado. Assuma também que em cada dia da semana 
+sempre extraiu-se quantidades de ouro diferentes.
+
+
+
+Entradas (conteúdo do arquivo jazida.txt):
+Sete números em ponto flutuante que denotam os pesos (em Kg) de ouro extraídos em cada dia da semana. 
+O primeiro número se refere a quantidade de outro extraída no Domingo, o segundo número se refere a quantidade extraída na 
+Segunda-feira, e assim sucessivamente.
+
+Saídas:
+Dia da semana em que ocorreu a maior extração. Note que o dia deve ser escrito seguindo exatamente a grafia definida no enunciado 
+da questão.
+Número em ponto flutuante que denota qual foi a quantidade de ouro extraída neste dia de maior extração.
+
+
+
+
+
+Exemplo de Entrada (conteúdo do arquivo jazida.txt):
+100.50
+65.0
+200.0
+176.6
+133.6
+123.44
+75.6
+
+Exemplo de Saída:
+terca-feira
+200.0

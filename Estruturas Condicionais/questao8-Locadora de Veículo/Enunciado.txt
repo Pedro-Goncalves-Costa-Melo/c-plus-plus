@@ -1,0 +1,60 @@
+Uma locadora de veículos quer expandir o seu negocio pela internet, possibilitando que: (1) seus clientes simulem o custo completo do aluguel de seus carros conforme a necessidade de uso; (2) o pagamento seja feito por meio da internet; e (3) pegar e devolver o carro em pontos estratégicos de suas filiais.
+
+A locadora dispõe de uma frota muito completa, de tal forma, que os carros são classificados de acordo com quatro categorias: Econômico, Intermediário, Prime e Especiais. Cada categoria tem um custo de aluguel diferenciado. O custo de aluguel é dado pela seguinte equação:
+
+Custo de Aluguel = (Valor da Diária * Quantidade de Dias) + (Valor por Km rodados * Km rodado)
+
+A frota de veículos a disposição para cada categoria e os valores praticados podem ser observados na tabela abaixo:
+
+Categoria	Frota de Veículos	Valor da Diária	Valor por Km Rodado
+ECONOMICO	Fiat Uno 1.0; Fiat Mobi 1.0; Renault Kwid 1.0; VW Gol 1.0; Ford Ka 1.0; Renault Sandero 1.0; Onix Joy 1.0	R$ 88,00	R$ 1,15
+INTERMEDIARIO	HB20 1.6; VW Gol 1.6; Renault Sandero 1.0; Fiat Cronos 1.3; Onix 1.0 Turbo; Nissan Versa FAST	R$ 197,00	R$ 1,56
+PRIME	Ford Ecoesport 1.5; Renault Duster 1.6; Nissan Kicks 1.6; VW Nivus 1.6; Fiat Pulse 1.6; Chery Tiggo 3X Turbo	R$ 265,00	R$ 2,89
+ESPECIAIS	Jeep Compass 4x4 Diesel; Mitsubishi Pajero 2.4 Diesel; Mercedes C180; Toyota Corola Cross; VW Taos Highline; Mitsubishi Eclipse Cross	R$ 335,00	R$ 3,40
+Você como estagiário da empresa, tem a função de criar um algoritmo capaz de simular o custo de aluguel dos carros conforme a escolha da categoria pelo cliente e informar ao cliente a frota de carros a disposição, conforme a categoria escolhida.
+
+Entradas:
+
+Uma String representando a categoria escolhida pelo cliente.
+Quantidade de Dias (Número Inteiro).
+Quantidade de Km rodados (Número Float).
+Saídas:
+
+Valor do custo do aluguel (float), seguindo a formatação dos exemplos abaixo.
+Lista de carros a disposição, seguindo a formatação dos exemplos abaixo.
+Exemplo de Entrada:
+
+ECONOMICO
+10
+350.0
+Exemplo de Saída:
+
+R$ 1282.5
+Carros a disposição: Fiat Uno 1.0, Fiat Mobi 1.0, Renault Kwid 1.0, VW Gol 1.0, Ford Ka 1.0, Renault Sandero 1.0, Onix Joy 1.0
+Exemplo de Entrada:
+
+INTERMEDIARIO
+7
+493.5
+Exemplo de Saída:
+
+R$ 2148.86
+Carros a disposição: HB20 1.6, VW Gol 1.6, Renault Sandero 1.0, Fiat Cronos 1.3, Onix 1.0 Turbo, Nissan Versa FAST
+Exemplo de Entrada:
+
+PRIME
+15
+1060.3
+Exemplo de Saída:
+
+R$ 7039.27
+Carros a disposição: Ford Ecoesport 1.5, Renault Duster 1.6, Nissan Kicks 1.6, VW Nivus 1.6, Fiat Pulse 1.6, Chery Tiggo 3X Turbo
+Exemplo de Entrada:
+
+ESPECIAIS
+3
+2049.7
+Exemplo de Saída:
+
+R$ 7973.98
+Carros a disposição: Jeep Compass 4x4 Diesel, Mitsubishi Pajero 2.4 Diesel, Mercedes C180, Toyota Corola Cross, VW Taos Highline, Mitsubishi Eclipse Cross

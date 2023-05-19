@@ -1,0 +1,18 @@
+Faça um programa que receba o valor da compra feita no cartão e dê a opção ao usuário de compra à vista (V) ou a prazo (P). Compras à vista o usuário terá desconto de 10%. Nas compras a prazo o usuário tem à disposição três formas de parcelamento: 3x sem juros, 6x com 5% de juros e em 12x com 10% de juros. Imprimir o valor final da compra e, se a compra for a prazo, imprimir também o valor de cada parcela.
+
+Entradas:
+Valor total da compra (número real),
+uma letra que indica se a compra é à vista (V) ou a prazo (P),
+um número inteiro que indica o número de parcelas (esta entrada só existe para compras a prazo e pode ser 3, 6 ou 12).
+
+Saídas:
+O valor final da compra, com juros ou descontos calculados.
+Valor de cada parcela (se a compra for a prazo).
+
+Exemplo de entradas:
+1200
+P
+6
+Exemplo de saídas:
+1260
+210
