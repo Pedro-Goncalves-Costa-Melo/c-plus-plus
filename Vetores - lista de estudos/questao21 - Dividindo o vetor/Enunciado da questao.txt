@@ -1,0 +1,14 @@
+Faça um programa que leia um vetor com quinze posições para números inteiros. Depois da leitura, divida todos os seus elementos pelo maior valor do vetor (divisão inteira). Escreva todos os valores do vetor após o calculo.
+
+Entradas:
+
+Quinze números inteiros.
+Saídas:
+
+Os quinze valores armazenados no vetor, em ordem.
+Exemplo de entrada:
+
+1 5 9 4 4 8 5 7 6 3 2 5 4 1 7
+Exemplo de saída:
+
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,31 @@
+A cada final de semestre letivo a UFLA solicita a cada aluno uma avaliação das disciplinas cursadas. Essa avaliação é feita atribuindo-se notas (valores inteiros) uma escala de 1 a 5, com o seguinte significado: 5 = MUITO BOM, 4 = BOM, 3 = REGULAR, 2 = RUIM, 1 = PÉSSIMO. Escreva um programa que leia um vetor de respostas de avaliação das disciplinas e imprima a frequência relativa de cada resposta conforme ilustrado nos exemplos a seguir. A saída deve seguir o padrão "nota: frequência relativa".
+
+Entradas:
+
+A quantidade de disciplinas.
+A nota dada para cada disciplina (valores inteiros no intervalo [1,5]). Assuma que todos os valores são fornecidos em uma única linha.
+Saídas:
+
+Relação da frequência relativa de cada nota (da maior nota para a menor).
+Exemplo de entrada:
+
+9
+1 2 3 4 5 3 4 5 5
+Exemplo de saída:
+
+5: 0.333333
+4: 0.222222
+3: 0.222222
+2: 0.111111
+1: 0.111111
+Exemplo de entrada:
+
+4
+4 3 1 2
+Exemplo de saída:
+
+5: 0.000000
+4: 0.250000
+3: 0.250000
+2: 0.250000
+1: 0.250000

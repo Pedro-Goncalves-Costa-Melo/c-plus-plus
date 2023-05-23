@@ -1,0 +1,22 @@
+Faça um programa com um vetor de tamanho n que irá receber um conjunto de caracteres. O tamanho n deverá ser lido antes dos caracteres. O programa deve ler mais 2 caracteres que servirão como marcadores. O programa, então, deverá escrever os caracteres do conjunto que estão entre os dois caracteres digitados como marcadores.
+
+Os marcadores não precisam estar em ordem, ou seja, o primeiro marcador não necessariamente precisa vir antes do segundo.
+
+Obs: para soluções em Python utilize as listas padrões da linguagem ao invés de vetores.
+
+Entrada:
+
+Tamanho n do vetor.
+Linha contendo os caracteres do vetor (separados entre si por espaço).
+Linha contendo os dois caracteres delimitadores (separados entre si por espaço).
+Saídas:
+
+Caracteres do vetor entre os delimitadores.
+Exemplo de entrada:
+
+6
+A B C D E F
+C F
+Exemplo de saída:
+
+D E

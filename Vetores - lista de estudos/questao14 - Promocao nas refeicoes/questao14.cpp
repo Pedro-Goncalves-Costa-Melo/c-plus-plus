@@ -4,36 +4,34 @@ using namespace std;
 
 int main(){
 
-    string vetNomes[10];
+    string Nomes[10];
     for (int i = 0; i < 10; i++)
     {
-        cin>>vetNomes[i];
+        cin>>Nomes[i];
     }
-    int vetRefeicoes[10];
+    int Refeicoes[10];
     for (int i = 0; i < 10; i++)
     {
-        cin>>vetRefeicoes[i];
+        cin>>Refeicoes[i];
         
     }
+
+
+    
     
     for (int i = 0; i < 10; i++)
     {
-        if(vetRefeicoes[i]%10!=0)
-        {
-            int contRef10=0;
-            contRef10=vetRefeicoes[i]/10;
-            vetRefeicoes[i]=vetRefeicoes[i]-contRef10;
-        }else if(vetRefeicoes[i]!=0)
-        {
-            int contRef10=0;
-            contRef10=vetRefeicoes[i]/10;
-            vetRefeicoes[i]=vetRefeicoes[i]-contRef10+1;
-        }
+       
+        int contRef10=0;
+        contRef10=Refeicoes[i]/11;
+        Refeicoes[i]=Refeicoes[i]-contRef10;
+
     }
     
+    
     for (int i = 0; i < 10; i++)
     {
-        cout<<vetNomes[i]<<" "<<vetRefeicoes[i]<<endl;
+        cout<<Nomes[i]<<" "<<Refeicoes[i]<<endl;
     }
     
 
