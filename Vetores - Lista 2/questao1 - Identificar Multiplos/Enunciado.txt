@@ -1,0 +1,10 @@
+Faça um programa que leia um conjunto de 15 números positivos. O último valor lido deve ser -1. O programa deve escrever todos os múltiplos do primeiro número (o primeiro número do vetor), na ordem inversa em que eles apareceram.
+
+Caso não exista nenhum múltiplo, o programa deve escrever -1.
+
+Exemplo de entrada:
+
+2 9 4 7 6 3 0 1 35 11 8 13 14 7 5 -1 
+Exemplo de saída:
+
+14 8 6 4
