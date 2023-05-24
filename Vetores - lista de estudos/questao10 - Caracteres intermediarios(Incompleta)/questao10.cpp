@@ -4,35 +4,51 @@ using namespace std;
 
 int main(){
 
+    //Lendo o Tamanho do Vetor
     int n;
     cin>>n;
+
+    //Lendo o vetor
     char vet[n];
     for (int i = 0; i < n; i++)
     {
         cin>>vet[i];
     }
-    
-    char Lim1, Lim2;
-    cin>>Lim1;
-    cin>>Lim2;
-    
 
+    //Lendo os caracteres Limite
+    char Limite1, Limite2;
+    cin>>Limite1>>Limite2;
 
-    for (int i = 0; i < 3; i++)
+    //Declaração de Variaveis Auxiliares. "j" para o While. "continua" como controle do while e para verificar se deve ser feita a impressão ou não.
+    bool continua=true;
+    int j=0;
+
+    //Loop principal do código. O For roda pelo tamanho do vetor. Se o vet[i] for igual a algum dos caracteres limite ele comeca o ciclo de impressão, até encontrar o outro caracter limite
+    for (int i = 0; i < n; i++)
     {
-        if (vet[i]==Lim1 or vet[i]==Lim2)
+        if (vet[i]==Limite1 or vet[i]==Limite2)
         {
-            int j=i+1;
-            while (vet[j]!=Lim1 and vet[j]!=Lim2)
+            j=i;
+            while (continua)
             {
-                cout<<vet[j]<<" ";
+                if (vet[j+1]==Limite1 or vet[j+1]==Limite2)
+                {
+                    continua=false;
+                }
+                
+                if (continua)
+                {
+
+                    cout<<vet[j+1]<<" ";
+                    
+                }
                 j++;
             }
-            
+
         }
         
     }
     
-
+    
     return 0;
 }

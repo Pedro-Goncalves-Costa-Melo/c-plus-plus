@@ -1,0 +1,36 @@
+Faça um programa que leia 2 vetores A e B, de 10 posições cada. Faça um terceiro vetor C com a média do primeiro valor do vetor A com o último valor do vetor B, colocado na primeira posição do vetor C, o segundo valor do vetor A com o penúltimo valor do vetor B, colocando na segunda posição do vetor C, assim sucessivamente. Em seguida descubra o maior valor e o segundo maior valor dos vetores A e B.
+
+Entradas:
+
+float VetA[10], VetB[10]. - Vetores que devem ser preenchidos.
+Saídas:
+
+Vetor C, com a média dos dos vetores, como no exemplo. (float).
+Maior e segundo maior elemento do vetor A. (float).
+Maior e segundo maior elemento do vetor B. (float).
+Exemplos de Entradas e Saídas:
+Entradas:
+
+//Vetor A: 
+ 10   5   6   7   8   9   4   3   2   1
+
+//Vetor B: 
+ 5   4   9   6   8   7   1   3   2   10
+Saídas:
+
+ 10
+ 3.5
+ 4.5
+ 4
+ 7.5
+ 8.5
+ 5
+ 6
+ 3
+ 3
+ 
+ 10
+ 9
+ 
+ 10
+ 9
