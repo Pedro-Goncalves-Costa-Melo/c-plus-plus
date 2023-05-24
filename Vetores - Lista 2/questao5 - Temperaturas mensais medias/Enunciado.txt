@@ -1,0 +1,18 @@
+Faça um programa que receba a temperatura média de cada mês do ano e armazene-as em um vetor. O programa deverá então descobrir e exibir o mês mais quente e o mais frio do ano. Assuma que todos os dados de entrada serão fornecidos em uma mesma linha. Assuma também que não haverá empates em relação a quais são os meses mais frios e mais quentes do ano.
+
+Obs.: Vetores em Python são implementados como listas cujos elementos são todos homogêneos.
+
+Entrada:
+
+Doze números decimais representando as temperaturas médias de cada mês do ano. O primeiro se refere a janeiro, o segundo a fevereiro, e assim por diante.
+Saída:
+
+O nome do mês mais quente do ano. A grafia do nome do mês deve utilizar apenas letras minúsculas e sem acentuação.
+O nome do mês mais frio do ano. A grafia do nome do mês deve utilizar apenas letras minúsculas e sem acentuação.
+Exemplo de entrada:
+
+31.5 30.3 30.4 27.3 22.1 19.4 15.3 14.0 19.9 22.5 29.3 30.7
+Exemplo de saída:
+
+janeiro
+agosto
