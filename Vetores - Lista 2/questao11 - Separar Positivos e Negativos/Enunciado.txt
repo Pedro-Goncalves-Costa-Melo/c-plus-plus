@@ -1,0 +1,16 @@
+Faça um programa que preencha um vetor com oito números inteiros, calcule e mostre dois vetores resultantes. O primeiro vetor resultante deve conter os números positivos; o segundo deve conter os números negativos. Cada vetor resultante vai ter, no máximo, oito posições, que poderão não ser completamente utilizadas. Assuma que todos os dados de entrada serão fornecidos em uma única linha. Assuma também que sempre haverá no mínimo um número positivo e um número negativo nos dados de entrada.
+
+Obs.: Vetores em Python são implementados como listas cujos elementos são todos homogêneos.
+
+Entradas:
+
+- Oito numeros inteiros.
+Saídas:
+
+- Vetor resultante com os números positivos.
+- Vetor resultante com os números negativos.
+Entradas:
+1 2 3 4 5 -5 -4 -1
+Saídas:
+1 2 3 4 5
+-5 -4 -1 
