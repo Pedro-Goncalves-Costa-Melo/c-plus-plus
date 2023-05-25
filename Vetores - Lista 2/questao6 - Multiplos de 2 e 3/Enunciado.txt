@@ -1,0 +1,20 @@
+Faça um programa que preencha um vetor com sete números inteiros, calcule e mostre: os números múltiplos de 2; os números múltiplos de 3; e os números múltiplos de 2 e 3. Os números múltiplos de 2 e 3 podem aparecer nos casos isolados. Caso não exista nenhum número em cada caso, o programa deve retornar 0 na respectiva saída.
+
+Obs: para soluções em Python utilize as listas padrões da linguagem ao invés de vetores.
+
+Entradas:
+
+Sequência de sete números inteiros
+Saídas:
+
+Números que são múltiplos de 2;
+Números que são múltiplos de 3;
+Números que são múltiplos de 2 e 3 simultaneamente.
+Exemplo de entrada:
+
+4 6 3 9 7 10 13
+Exemplo de saída:
+
+4 6 10
+6 3 9 
+6
