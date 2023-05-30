@@ -1,0 +1,32 @@
+Questão 1: Matrizes - Submatriz de vogais
+Faça um programa que lê da entrada padrão uma matriz quadrada de caracteres, o programa deverá identificar, caso exista, uma submatriz 2x2 que contenha apenas vogais maiúsculas e deverá escrevê-la na saída padrão, caso não exista tal submatriz o programa deverá escrever "submatriz nao encontrada" (tudo minusculo e sem acento).
+
+Considere, para fins de eficiência, que cada matriz contém no máximo uma submatriz 2x2 de vogais.
+
+Entradas:
+
+As dimensões da matriz (número inteiro maior que 1).
+Os elementos da matriz (letras maiúsculas).
+Saídas:
+
+Submatriz 2x2 que contenha apenas vogais caso exista, ou então escreva apenas "submatriz nao encontrada".
+Exemplo de Entrada:
+
+4
+A B D C
+O P E I
+K L A I
+H Q A J
+Exemplo de Saída:
+
+E I
+A I
+Exemplo de Entrada:
+
+3
+A O P
+E Q F
+C G T
+Exemplo de Saída:
+
+submatriz nao encontrada
