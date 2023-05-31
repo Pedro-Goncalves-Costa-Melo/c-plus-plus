@@ -1,0 +1,21 @@
+Parênteses são importantes na matemática por representar uma prioridade na solução de uma expressão. Sabendo disso faça um programa que leia uma expressão algébrica e então determine se os parênteses foram corretamente abertos e fechados.
+Se todos os parênteses estiverem corretos o programa deverá escrever ''parenteses corretos'', caso contrário deverá escrever ''parenteses incorretos''.
+
+Entradas:
+
+Expressão algébrica.
+Saídas:
+
+Escrever ''parenteses corretos'' casos todos os parênteses foram corretamente abertos e fechados ou então ''parenteses incorretos''.
+Exemplo de Entrada:
+
+1+(3*2x)
+Exemplo de Saída:
+
+parenteses corretos
+Exemplo de Entrada:
+
+(5-2y)*(7x/2
+Exemplo de Saída:
+
+parenteses incorretos
