@@ -12,7 +12,7 @@ int main(){
     }
     
     int cont=0;
-    for (int i = 15; i > 0; i--)
+    for (int i = 14; i > 0; i--)
     {
         if (vet[i]%vet[0]==0 and vet[i]!=0)
         {
