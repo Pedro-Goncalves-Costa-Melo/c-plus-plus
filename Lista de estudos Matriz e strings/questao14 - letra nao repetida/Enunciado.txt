@@ -1,0 +1,16 @@
+Faça um programa que dada um string de entrada, informa qual o primeiro caractere que não se repete.
+
+Obs: Considere que sempre existirá pelo menos uma letra que não se repete.
+
+Entradas:
+
+Uma string.
+Saídas:
+
+Primeira letra que não se repete na string.
+Exemplo de Entrada:
+
+aabcade
+Exemplo de Saída:
+
+b
