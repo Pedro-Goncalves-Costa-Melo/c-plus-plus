@@ -1,0 +1,14 @@
+Faça um programa que dada uma string de entrada, informa qual o caractere que mais se repete.
+
+Entradas:
+
+Uma string.
+Saídas:
+
+Letra que mais se repete.
+Exemplo de Entrada:
+
+aabbbarra
+Exemplo de Saída:
+
+a
