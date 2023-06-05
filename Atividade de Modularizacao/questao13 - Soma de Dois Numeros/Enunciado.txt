@@ -1,0 +1,27 @@
+Faça um programa que receba um vetor de números inteiro de capacidade N e em seguida leia os elementos deste vetor.
+
+Seu programa deverá verificar, por meio de uma função, se existe dois elementos do vetor cuja soma seja igual ao tamanho do vetor. Caso existam os elementos deverão ser impressos, porém caso não existam deverá ser impresso ''Nao existe soma valida''.
+
+Obs: Caso existam diferentes combinações cuja soma seja igual a N considere a primeira ocorrência.
+
+Entradas:
+
+Número inteiro indicando o tamanho N do vetor.
+Números inteiros indicando os elementos do vetor.
+Saídas:
+
+Os dois elementos cuja soma é igual a N, ou então escrever ''Nao existe soma valida''.
+Exemplo de Entrada:
+
+5
+3 4 6 2 1
+Exemplo de Saída:
+
+3 2
+Exemplo de Entrada:
+
+3
+5 4 1
+Exemplo de Saída:
+
+Nao existe soma valida
