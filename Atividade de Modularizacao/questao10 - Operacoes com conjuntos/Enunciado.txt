@@ -1,0 +1,27 @@
+Faça um programa que receba um vetor de tamanho M e outro de tamanho N, preencha-os e calcule, por meio de uma função, a União entre eles. Apresente o resultado na função principal.
+
+Entradas:
+
+int m, n - Tamanho do primeiro e do segundo vetor.
+int vet[n], vet[m] - Vetores que devem ser preenchidos com valores inteiros.
+Saídas:
+
+A união entre os vetores, vetor[m] ∪ vetor[n].
+
+Exemplos de Entradas e Saídas:
+Entradas:
+
+ // Tamanho vetor[m]
+ 5
+
+ // Tamanho vetor[n]
+ 3
+
+ // Elementos vetor[m]
+ 4   2   9   8   6
+
+ // Elementos vetor[n]
+ 2   5   0
+Saídas:
+
+ 4   2   9   8   6   5   0
