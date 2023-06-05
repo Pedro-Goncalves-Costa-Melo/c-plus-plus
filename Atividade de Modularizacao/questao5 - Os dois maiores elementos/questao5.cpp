@@ -5,8 +5,19 @@ using namespace std;
 void Max2(float vet[], int tamanho, float& A, float& B)
 {
     
+    if (vet[0]>vet[1])
+    {
+        A=vet[0];
+        B=vet[1];
+    }
+    else
+    {
+        A=vet[1];
+        B=vet[0];
+    }
     
-    for (int i = 0; i < tamanho; i++)
+    
+    for (int i = 2; i < tamanho; i++)
     {
         if (vet[i]>A)
         {
