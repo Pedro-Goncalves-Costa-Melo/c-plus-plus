@@ -1,0 +1,22 @@
+Faça um algoritmo para ler e armazenar em um vetor a temperatura média dos dias de uma semana (7 dias) (número real). Implemente um procedimento, com passagem por referência, para calcular: a) Menor temperatura da semana b) Maior temperatura da semana c) Temperatura média da semana d) O número de dias da semana em que a temperatura foi inferior a média semanal
+
+Os valores, calculados pelo procedimento, deverão ser impressos na função principal.
+
+Entradas:
+
+Temperatura de cada dia da semana
+Saídas:
+
+Menor temperatura da semana;
+Maior temperatura da semana;
+Temperatura média da semana;
+O número de dias da semana em que a temperatura foi inferior a média semanal.
+Exemplo de Entrada:
+
+26 27 40 38 35 33 27
+Exemplo de Saída:
+
+26
+40
+32.285
+3
