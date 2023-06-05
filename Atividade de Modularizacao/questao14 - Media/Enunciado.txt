@@ -1,0 +1,17 @@
+Faça um programa que receba o tamanho n e os elementos de um vetor. Em seguida, por meio de uma função, calcule a média dos elementos desse vetor e multiplique essa média por todos os elementos que sejam menores ou iguais a ela. Em seguida imprima o novo vetor.
+Entradas:
+
+int n - Tamanho do vetor.
+int vetor[n] - Elementos do vetor.
+Saídas:
+
+Novo vetor após as operações.
+
+Exemplos de Entradas e Saídas:
+Entradas:
+
+5
+2 0 4 8 6
+Saídas:
+
+8 0 16 8 6
