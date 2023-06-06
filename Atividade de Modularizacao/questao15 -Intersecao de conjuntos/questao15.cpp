@@ -24,7 +24,7 @@ int intercessao(int vet1[], int vet2[], int tamanho1, int tamanho2, int& aux)
         }
         
     }
-    
+    return 0;
 }
 int main(){
 
