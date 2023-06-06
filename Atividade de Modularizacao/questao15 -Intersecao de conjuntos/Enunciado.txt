@@ -1,0 +1,42 @@
+Faça um programa que receba um vetor de tamanho M e outro de tamanho N, preencha-os e depois, por meio de um procedimento, calcule a Intercessão entre eles. Mostre o resultado na função principal. Caso não haja elementos que possa fazer uma intercessão, imprima -1.
+Entradas:
+
+int m, n - Tamanho do primeiro e do segundo vetor.
+int vet[n], vet[m] - Vetores que devem ser preenchidos com valores inteiros.
+Saídas:
+
+A intercessão entre os vetores, vetor[m] ∩ vetor[n].
+
+Exemplos de Entradas e Saídas:
+Entradas:
+
+ // Tamanho vetor[m]
+ 5
+
+ // Tamanho vetor[n]
+ 3
+
+ // Elementos vetor[m]
+ 4   2   9   8   6
+
+ // Elementos vetor[n]
+ 7   5   0
+Saídas:
+
+ -1
+Entradas:
+
+ // Tamanho vetor[m]
+ 8
+
+ // Tamanho vetor[n]
+ 6
+
+ // Elementos vetor[m]
+ 2   4   10   21   8   6   12  13
+
+ // Elementos vetor[n]
+ 21   2   13   5   8   3   
+Saídas:
+
+ 2   21   8   13
