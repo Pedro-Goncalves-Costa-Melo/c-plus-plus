@@ -2,45 +2,46 @@
 
 using namespace std;
 
-float Media(float vet[],int tam){
+double Media(int vet[], int tam)
+{
 
-    float media=0;
+    int media = 0;
     for (int i = 0; i < tam; i++)
     {
-        media+=vet[i];
+        media += vet[i];
     }
-    media/=tam;
-
-
-
-
+    media /= tam;
 
     return media;
 }
-int main(){
+int main()
+{
 
     int n;
-    cin>>n;
-    float vet[n];
+    cin >> n;
+    int vet[n];
     for (int i = 0; i < n; i++)
     {
-        cin>>vet[i];
+        cin >> vet[i];
     }
-    
-    for (int i = 0; i < n; i++)
-    {
-        if (vet[i]<=Media(vet,n))
-        {
-            cout<<vet[i]*Media(vet,n)<<" ";
-        }else
-        {
-            cout<<vet[i]<<" ";
-        }
-        
-    }
-    cout<<endl;
 
-    
+    double media = Media(vet, n);
+
+    int mediasN[n];
+    for (int i = 0; i < n; i++)
+    {
+        if (vet[i] <= media)
+        {
+            mediasN[i] = vet[i] * media;
+        }
+        else
+            mediasN[i] = vet[i];
+    }
+    for (int i = 0; i < n; i++)
+    {
+        cout << mediasN[i] << " ";
+    }
+    cout << endl;
 
     return 0;
 }
