@@ -2,25 +2,21 @@
 
 using namespace std;
 
-int calculoMedia(float vet[], float& media, int tam)
-{
+float Media(float vet[],int tam){
+
+    float media=0;
     for (int i = 0; i < tam; i++)
     {
         media+=vet[i];
     }
     media/=tam;
 
-    for (int i = 0; i < tam; i++)
-    {
-        if (vet[i]<=media)
-        {
-            vet[i]*=media;
-        }
-        
-    }
-    return 0;
-}
 
+
+
+
+    return media;
+}
 int main(){
 
     int n;
@@ -30,13 +26,20 @@ int main(){
     {
         cin>>vet[i];
     }
-    float media=0;
-
-    calculoMedia(vet,media,n);
+    
     for (int i = 0; i < n; i++)
     {
-        cout<<vet[i]<<" ";
+        if (vet[i]<=Media(vet,n))
+        {
+            cout<<vet[i]*Media(vet,n)<<" ";
+        }else
+        {
+            cout<<vet[i]<<" ";
+        }
+        
     }
+    cout<<endl;
+
     
 
     return 0;

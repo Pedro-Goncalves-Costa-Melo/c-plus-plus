@@ -1,0 +1,30 @@
+Uma mercearia do bairro lançou uma promoção para clientes que comprarem mais de um mesmo item. Você deve criar um programa que leia uma lista de compras e imprima o valor final das compras com o desconto. O desconto segue a seguinte regra: quando uma pessoa comprar 2 unidades do mesmo item, receberá 5% de desconto sobre o valor daquelas unidades, quando comprar 3 ou 4 unidades, receberá 10% de desconto, e quando comprar 5 unidades ou mais, receberá 15% de desconto. Sabe-se que os produtos vendidos nessa mercearia e seus respectivos valores individuais são:
+
+1. cha - 4.50
+2. cafe - 3.25
+3. coca - 6.90
+4. biscoito - 2.75
+5. pao - 0.80
+6. salgado - 3.50
+
+
+Para esse problema, o primeiro valor da entrada será o número N de itens comprados, e em cada linha seguinte será dado o nome de um dos itens listados acima. Um item poderá aparecer mais de uma vez na lista, em posições não necessariamente contíguas. A entrada de dados deverá ser feita na função principal. Seu programa deverá calcular o valor total pago pelas compras em uma função e o resultado deverá ser impresso na função principal.
+
+Entradas:
+
+Número de itens comprados
+Sequência com os itens
+Saídas:
+
+Valor total pago pelas compras
+Exemplo de Entrada:
+
+5
+biscoito
+biscoito
+coca
+cha
+cafe
+Exemplo de Saída:
+
+19.875

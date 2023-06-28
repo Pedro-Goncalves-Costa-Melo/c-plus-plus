@@ -2,65 +2,48 @@
 
 using namespace std;
 
-
-int intercessao(int vet1[], int vet2[], int tamanho1, int tamanho2, int& aux)
+void Intersecao(int vet1[], int vet2[], int tam1, int tam2, bool confirmacao)
 {
-    for (int i = 0; i < tamanho1; i++)
-    {
-
-        int cont=0;
-        for (int j = 0; j < tamanho2; j++)
-        {
-            if (vet1[i]!=vet2[j])
-            {
-                cont++;
-            }
-            
-        }
-        if (cont==tamanho2)
-        {
-            vet1[i]=-1;
-            aux--;
-        }
-        
-    }
-    return 0;
-}
-int main(){
-
-    int tam1, tam2;
-    cin>>tam1>>tam2;
-
-    int vet1[tam1];
-    int vet2[tam2];
-    for (int i = 0; i < tam1; i++)
-    {
-        cin>>vet1[i];
-    }
-    for (int i = 0; i < tam2; i++)
-    {
-        cin>>vet2[i];
-    }
-    int aux=tam1;
-
-    intercessao(vet1,vet2,tam1,tam2,aux);
-    if (aux==0)
-    {
-        cout<<-1<<endl;
-    }else
+    int cont=0;
+    if (tam1>tam2)
     {
         for (int i = 0; i < tam1; i++)
         {
-            if (vet1[i]!=-1)
+            for (int j = 0; j < tam2; j++)
             {
-                cout<<vet1[i]<<" ";
+                if (vet1[i]==vet2[j])
+                {
+                    cont++;
+                }
+                
             }
             
         }
-        cout<<endl;
+        
     }
     
+    
+}
 
+int main()
+{
+
+    int M, N;
+    cin >> M >> N;
+
+    int vet1[M];
+    for (int i = 0; i < M; i++)
+    {
+        cin >> vet1[i];
+    }
+    int vet2[N];
+    for (int i = 0; i < N; i++)
+    {
+        cin >> vet2[i];
+    }
+    bool aux=false;
+
+    Intersecao(vet1, vet2, M, N, aux);
 
     return 0;
 }

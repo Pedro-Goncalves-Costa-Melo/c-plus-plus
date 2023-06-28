@@ -10,7 +10,7 @@ int soma(int vet[], int tam, int vetResp[])
     {
         for (int j = 0; j < tam; j++)
         {
-            if (vet[i]+vet[j]==tam and continua)
+            if (vet[i]+vet[j]==tam and continua and i!=j)
             {
                 vetResp[0]=vet[i];
                 vetResp[1]=vet[j];

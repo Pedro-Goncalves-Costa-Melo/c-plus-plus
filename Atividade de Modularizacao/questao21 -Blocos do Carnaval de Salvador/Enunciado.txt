@@ -1,0 +1,31 @@
+O carnaval de Salvador é conhecido pela energia contagiante de sua folia. O público festeja em três circuitos principais. Em cada circuito irá circular uma quantidade de blocos e, em cada bloco, há uma quantidade de pessoas.
+
+Faça um programa que recebe a quantidade de blocos em cada um dos três circuitos (a quantidade de blocos é a mesma para cada circuito), o nome de cada circuito e a quantidade de pessoas que vão pular o carnaval em cada bloco. Para cada circuito, utilize vetor para armazenar a quantidade de pessoas em cada bloco. O programa deve calcular e exibir:
+Para cada circuito, a quantidade média de pessoas por bloco;
+O nome do circuito que possui a maior quantidade de pessoas e essa quantidade.
+O cálculo da média e da quantidade de pessoas em cada circuito deverá ser feita por meio de um procedimento, utilizando passagem de parâmetros por referência.
+
+Entradas:
+
+Um número inteiro que representa a quantidade de blocos por circuito;
+Para cada circuito, o nome do circuito e,
+uma lista de valores inteiros com a quantidade pessoas em cada bloco, na mesma linha.
+Saídas:
+
+Para cada circuito, a quantidade média de pessoas por bloco;
+O nome do circuito que possui a maior quantidade de pessoas e essa quantidade (na mesma linha).
+Exemplo de Entrada:
+
+5
+DODO
+50 82 76 91 87
+OSMAR
+122 105 94 103 88
+BATATINHA
+57 49 82 70 63
+Exemplo de Saída:
+
+77.2
+102.4
+64.2
+OSMAR 512.0

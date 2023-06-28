@@ -1,0 +1,30 @@
+Faça um programa que recebe um vetor de caracteres de tamanho m e um caractere indicador de separação. O programa deve criar e exibir dois vetores, sendo o primeiro com todos os caracteres do vetor de entrada que alfabeticamente são anteriores ao caractere indicador de separação e o segundo com os caracteres do vetor de entrada posteriores ao caractere de separação. Obs: deve ser mantida a ordem do vetor original. Obs: portanto, caso o caractere de separação apareça no vetor de entrada, ele não será exibido em nenhum dos vetores de saída.
+
+A separação dos vetores deverá ser feita por um procedimento, utilizando passagem por referência tanto do vetor inicial como dos vetores resultantes e seus respectivos tamanhos. A impressão deverá ser feita na função principal.
+
+Entradas:
+
+Tamanho do vetor
+Vetor de caracteres (separados por espaços)
+Caractere indicador da separação
+Saída:
+
+Vetor com os caracteres do vetor original que são alfabeticamente anteriores ao caractere indicador da separação.
+Vetor com os caracteres do vetor original que são alfabeticamente posteriores ao caractere indicador da separação.
+Exemplo de entradas:
+
+6
+a e y s b c
+e
+Exemplo de saídas:
+
+a b c
+y s
+Exemplo de entradas:
+
+6
+a e y s b c
+z
+Exemplo de saídas:
+
+a e y s b c
