@@ -1,0 +1,39 @@
+Faça um algoritmo que leia informações de 5 funcionários. O algoritmo deve pesquisar um determinado funcionário pelo número de matrícula utilizando o método binário e apresentar o nome do mesmo. Considere, para isso, que as entradas já foram inseridas de forma ordenada pelo número de matrícula. Também deverá apresentar de forma ordenada (crescente, por salário) os registros dos empregados que recebem salários iguais ou superior a um determinado valor.
+
+Entradas:
+
+Os dados de cada funcionário:
+matrícula (número inteiro),
+nome,
+salário (número real) e
+Matrícula a ser pesquisada,
+Salário a ser pesquisado.
+Saídas:
+
+Nome do funcionário correspondente a matrícula a ser pesquisada,
+lista com nomes dos funcionários com salários superiores ao salário a ser pesquisado.
+Exemplo de entrada:
+
+200
+Michel
+3000
+201
+Anderson
+2850
+202
+Fernanda
+2600
+203
+Marcia
+2900
+204
+Pablo
+3500
+202
+2900
+Exemplo de saída:
+
+Fernanda
+Marcia
+Michel
+Pablo
