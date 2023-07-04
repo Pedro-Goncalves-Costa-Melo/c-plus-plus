@@ -1,0 +1,18 @@
+Escreva uma função que receba como parâmetro uma matriz A 5 x 5 de inteiros. A função deve retornar o ponteiro para um vetor B de tamanho 5 alocado dinamicamente, em que cada posição de B é a soma dos números da coluna correspondente da matriz A.
+
+Entradas:
+
+Os elementos da matriz A
+Saídas:
+
+Os elementos do vetor B
+Exemplo de Entrada:
+
+1 2 3 4 5
+5 4 3 2 1
+1 1 1 1 1
+2 2 2 2 2
+9 8 7 6 5
+Exemplo de Saída:
+
+18 17 16 15 14
