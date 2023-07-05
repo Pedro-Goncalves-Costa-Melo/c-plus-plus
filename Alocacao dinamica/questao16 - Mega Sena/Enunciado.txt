@@ -1,0 +1,18 @@
+Declare um registro para armazenar um resultado de um sorteio da mega sena. Faça um programa que receba do usuário uma quantidade de sorteios e as dezenas sorteadas, armazenando-as em um vetor alocado dinamicamente. Faça então um subprograma que receba esse vetor e retorne um ponteiro para o registro que tenha a maior soma de dezenas sorteadas. Por fim, exiba os dados do registro retornado.
+
+Entrada:
+
+Um número indicando a quantidade de sorteios.
+As dezenas sorteadas em cada sorteio (vetor alocado dinamicamente).
+Saída:
+
+As dezenas do registro que tem a maior soma de dezenas sorteadas.
+Exemplo de entrada:
+
+3
+41 44 48 50 54 57
+02 17 22 24 48 51
+14 34 46 47 56 57
+Exemplo de saída:
+
+41 44 48 50 54 57
